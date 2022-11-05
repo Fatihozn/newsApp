@@ -28,6 +28,7 @@ export default function App() {
   return (
     <SafeAreaView style={style.app}>
       <FlatList
+        showsVerticalScrollIndicator={false}
         ListHeaderComponent={headerComponent}
         keyExtractor={keyFunction}
         data={data}
